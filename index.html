@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>bs component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion With Border
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-flush" id="accordiontwo">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingtwo">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+              Accordion Without Border
+            </button>
+          </h2>
+          <div id="collapsetwo" class="accordion-collapse collapse show" aria-labelledby="headingtwo" data-bs-parent="#accordiontwo">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-info" role="alert">
+        alert with colour defined by Bootstrap.
+      </div>
+      <div class="alert alert-primary" role="alert">
+        Alert with link <a href="#">Facebook</a>
+      </div>
+      <div class="alert alert-success alert-primary" role="alert">
+        Alert success Example.
+      </div>
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Alert Dissmissable Example</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <button type="button" class="btn btn-dark rounded-pill">
+        Notifications <span class="badge bg-warning">4</span>
+      </button>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Contact</a></li>
+          <li class="breadcrumb-item"><a href="#">Breadcrumb</a></li>
+          <li class="breadcrumb-item active" aria-current="page">About Us</li>
+        </ol>
+      </nav>
+      <button type="button" class="btn btn-outline-secondary btn-lg">Large Button</button>
+      <button type="button" class="btn btn-outline-danger btn-sm">Small Button</button>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-outline-dark" type="button">Button</button>
+      </div>
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-outline-dark">1</button>
+          <button type="button" class="btn btn-outline-dark">2</button>
+          <button type="button" class="btn btn-outline-dark">3</button>
+          <button type="button" class="btn btn-outline-dark">4</button>
+        </div>
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-outline-info">5</button>
+          <button type="button" class="btn btn-outline-info">6</button>
+          <button type="button" class="btn btn-outline-info">7</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Third group">
+          <button type="button" class="btn btn-light">8</button>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card border-warning">
+          <img src="image/for.jpg" class="card-img-top" alt="image">
+          <div class="card-body">
+            <h5 class="card-title">Card Class Practice</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ipsum culpa iure, assumenda libero unde nostrum tempore impedit suscipit maiores.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/for (1).jpg" class="card-img-top" alt="image">
+          <div class="card-body bg-warning">
+            <h5 class="card-title">Card Class Practice</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ipsum culpa iure, assumenda libero unde nostrum tempore impedit suscipit maiores.</p>
+          </div>
+        </div>
+        <div class="card border-info">
+          <img src="image/for (2).jpg" class="card-img-top" alt="image">
+          <div class="card-body">
+            <h5 class="card-title">Card Class Practice</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ipsum culpa iure, assumenda libero unde nostrum tempore impedit suscipit maiores.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/for (3).jpg" class="card-img-top" alt="image">
+          <div class="card-body bg-info">
+            <h5 class="card-title">Card Class Practice</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ipsum culpa iure, assumenda libero unde nostrum tempore impedit suscipit maiores.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="image/for.jpg" class="image-fluid" alt="image">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="image/for.jpg" class="card-img-top c-img" alt="image">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Card Class Practice</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ipsum culpa iure, assumenda libero unde nostrum tempore impedit suscipit maiores.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/for (1).jpg" class="card-img-top c-img" alt="image">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Card Class Practice</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ipsum culpa iure, assumenda libero unde nostrum tempore impedit suscipit maiores.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/for (2).jpg" class="card-img-top c-img" alt="image">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Card Class Practice</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ipsum culpa iure, assumenda libero unde nostrum tempore impedit suscipit maiores.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="image/for (3).jpg" class="card-img-top c-img" alt="image">
+            <div class="card-body bg-info">
+              <h5 class="card-title">Card Class Practice</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ipsum culpa iure, assumenda libero unde nostrum tempore impedit suscipit maiores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn-close" aria-label="Close"></button>
+      <p>
+        <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">first element</a>
+        <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">second element</button>
+        <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="collapse1 collapse2">Both</button>
+      </p>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="collapse1">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="collapse2">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown text-center">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+        Popup Modal
+      </button>
+      <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modallabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modallabel">Title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sit exercitationem ut blanditiis quia et reprehenderit dolores laborum. Dolores aliquam nulla explicabo. Corrupti quis odit ad tempore nam sit minus?</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mb-3">
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on top
+      </button>
+      
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on right
+      </button>
+      
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on bottom
+      </button>
+      
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Popover on left
+      </button>
+      </div>
+      <div class="progress mb-2">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+      </div>
+      <div class="progress mb-2">
+        <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+      </div>
+      <div class="progress mb-2">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+      </div>
+      <div class="progress mb-2">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+      </div>
+      <div>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+          Tooltip on top
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+          Tooltip on right
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+          Tooltip on bottom
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+          Tooltip on left
+        </button>
+      </div>
+    </div>
+
+    <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"> </script>
+  </body>
+</html>
